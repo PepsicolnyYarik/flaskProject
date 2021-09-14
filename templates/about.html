@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title Test</title>
+</head>
+<body>
+<div>
+<form>
+    <label for="input-city"></label><input type="text" placeholder="Input the city name" name="city_name" id="input-city">
+        <button type="submit">Add</button>
+</form>
+
+{% if title_name %}
+    <h1>{{ title_name }}</h1>
+{% else %}
+    <h1>Another title</h1>
+{% endif %}
+</div>
+<ul>
+    {%  for x in menu %}
+        <h3><li>{{ x }}</li></h3>
+    {% endfor %}
+</ul>
+</body>
+</html>
