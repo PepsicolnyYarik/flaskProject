@@ -11,7 +11,7 @@ from admin.admin import admin
 
 DATABASE = '/tmp/flsite.db'
 DEBUG = True
-SECRET_KEY = 'fdgfh78gsdgsdgsd@#5?>gfhf89dx,v06k'
+SECRET_KEY = '8d06ed41c58489acf18c0490f68e3531ad0780cb'
 USERNAME = 'admin'
 PASSWORD = '123'
 MAX_CONTENT_LENGTH = 1024 * 1024
